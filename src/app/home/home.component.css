@@ -4,14 +4,21 @@
    
   }
   
-.example-card{
-    margin-top: 80px;
+.product{
+    margin-top: 20px;
 }
-/* 
-.example-card image{
+
+img{
+  width: 30%; 
+  height: 30%;
+  object-fit: contain; 
+}
+
+
+/* img{
     height: 150px; 
     object-fit: contain;
-    width: 200px;
+    width: 300px;
     height: 300px;
     object-fit: cover;
   } */

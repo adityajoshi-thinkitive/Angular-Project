@@ -10,6 +10,11 @@ import { HomeComponent } from './home/home.component';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatCardModule} from '@angular/material/card'; 
 import {MatGridListModule} from '@angular/material/grid-list'; 
+import { Ng2SearchPipeModule } from 'ng2-search-filter';
+import { FormsModule } from '@angular/forms';
+import { NgMatSearchBarModule } from 'ng-mat-search-bar';
+import {MatFormFieldModule} from '@angular/material/form-field'; 
+import { MatInputModule } from '@angular/material/input';
 
 @NgModule({
   declarations: [
@@ -23,7 +28,12 @@ import {MatGridListModule} from '@angular/material/grid-list';
     BrowserAnimationsModule,
     MatToolbarModule,
     MatCardModule,
-    MatGridListModule
+    MatGridListModule,
+    Ng2SearchPipeModule,
+    FormsModule,
+    NgMatSearchBarModule,
+    MatFormFieldModule,
+    MatInputModule 
   ],
   providers: [],
   bootstrap: [AppComponent]
